@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box ;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: fuente1;
+    src: url(fonts/MorrisRomanBlack.ttf);
+}
+html{
+     margin-left: 60px;
+     margin-right: 60px;
+     font-family: fuente1;
+     font-size: 18px;
+    h1{
+        font-size: 3rem;
+    }
+}
+header, footer{
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 120px;
+    padding: 15px;
+}
+
+.logo img{
+    border-radius: 20px;
+    border: 1px solid #070707;
+}
+
+
+nav{
+    background-color: rgb(204, 159, 116);
+    padding: 15px;
+}
+nav a{
+    background-color: aqua;
+    color: #fff;
+    padding: 6px 10px;
+    text-decoration: none;
+    box-shadow: 7px 7px 7px 7px #070707;
+    border-radius: 15px;
+}
+
+main{
+  /*  background-color: skybl*/
+    min-height: 100vh;
+    background-image:url(images/imagen2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+/* background: linear-gradient(70deg, blue, pink); */
+padding: 30px 0;
+    
+}
+
+nav a:hover{
+    background-color: beige;
+    color: black;
+}
+
+.cuadro-px{
+    width: 500px;
+    height: 330px;
+    padding: 20px;
+    margin: 25px auto;
+    background-color: rgba(149, 248, 248, 0.4);
+    border: 2px solid rgb(88, 87, 81);
+}
+.cuadro-rem{
+    width: 31.25rem;
+    height: 20.625rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(65, 65, 182, 0.4);
+    border: .125rem solid red;
+}
+.em{
+    font-size: 30px;
+}
+.cuadro-em{
+    width: 31.25em;
+    height: 20.625em;
+    padding: 1.25em;
+    margin: 1.5625em auto;
+    background-color: rgba(65, 65, 182, 0.4);
+    border: .125rem solid red;
+}
+.columnas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.columnas .dos{
+    width: 30%;
+}
+
+
